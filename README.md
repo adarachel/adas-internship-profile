@@ -53,6 +53,10 @@ To use this project, follow these steps:
 
 2. Open the index.html file in your web browser to view the web page.
 
+## Demo
+
+(https://adarachel.github.io/adas-internship-profile/)
+
 ## Contributing
 
 Contributions are welcome! If you have any improvements or suggestions for this project, please open an issue or create a pull request.
