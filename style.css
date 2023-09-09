@@ -1,75 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,600;10..48,800&display=swap');
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(45deg, #885fff, black, #e00a24);
-    background-size: 200% 200%;
-    animation: gradientAnimation 2s linear infinite;
-}
-
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+  height: 100vh;
+  background-color: #ff8c00;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
-    width: 450px;
-    height: 500px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 12em;
-    background: linear-gradient(45deg, #885fff, #e00a24);
-    background-size: 200% 200%;
-    animation: gradientAnimation 2s linear infinite;
+  text-align: center;
+  padding: 20px;
 }
 
-.profile {
-    margin-top: 20px;
-}
-
-.profile img {
-    max-width: 150px;
-    border-radius: 50%;
-    margin-top: 2em;
-}
-
-h1[data-testid="slackUserName"] {
-    font-family: 'Bricolage Grotesque', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    color: black;
-}
-
-p[data-testid="myTrack"] {
-    font-family: 'Bricolage Grotesque', sans-serif;
-    font-weight: 400;
-    font-size: larger;
-    color: white;
+img {
+  max-width: 200px;
+  border-radius: 10px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    display: block;
-    margin-top: 2em;
-    text-decoration: underline;
+  text-decoration: none;
+  font-weight: 500;
+  color: #0073e6;
 }
 
-h2[data-testid="currentDayOfTheWeek"] {
-    font-family: 'Bricolage Grotesque', sans-serif;
-    font-weight: 400;
-    font-size: larger;
-    color: white;
+a:hover {
+  text-decoration: underline;
 }
