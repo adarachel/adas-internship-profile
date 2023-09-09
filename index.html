@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ada Rachel Oyeoka | HNGx Stage One</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 data-testid="slackUserName">Ada Rachel Oyeoka</h1>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Front-End | Stage One Task </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,600;10..48,800&display=swap"
-        rel="stylesheet">
-</head>
+      <img
+        src="./slack_display_image.jpeg"
+        alt="Ada Rachel Oyeoka"
+        data-testid="slackDisplayImage"
+      />
 
-<body>
-    <div class="container">
-        <div class="profile">
-            <img src="https://ca.slack-edge.com/T05FFAA91JP-U05R9GMSAQJ-cf4b50e1dfd8-512" alt="Ada Rachel Oyeoka"
-                data-testid="slackDisplayImage">
-            <h1 data-testid="slackUserName">
-                ADA RACHEL OYEOKA
-            </h1>
-        </div>
-        <h2 data-testid="currentDayOfTheWeek">Loading...</h2>
-        <h2 data-testid="currentUTCTime">Loading...</h2>
-        <p data-testid="myTrack">Front-End Development</p>
-        <a href="https://github.com/adarachel/adas-internship-profile" data-testid="githubURL">GitHub Repository</a>
-    </div>
+      <p data-testid="currentDayOfTheWeek"></p>
+
+      <p data-testid="currentUTCTime"></p>
+
+      <p data-testid="myTrack">Frontend</p>
+
+      <a href="https://github.com/adarachel/adas-internship-profile" data-testid="githubURL"
+        >GitHub Repository</a
+      >
+    </main>
+
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
